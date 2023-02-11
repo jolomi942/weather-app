@@ -81,7 +81,7 @@ button.addEventListener("click", getCurrentPosition);
 function showTemp(response){
         let temp = document.querySelector("#temperature-2");
         weather2 = Math.round(response.data.main.temp);
-        fahrenheitTemp = Math.round((weather * 9) / 5 + 32);
+        fahrenheitTemp = Math.round((weather2 * 9) / 5 + 32);
         temp.innerHTML = `Temp:${weather2}℃/${fahrenheitTemp}℉`;
     
         let weatherHum = document.querySelector("#humidity-2");

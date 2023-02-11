@@ -1,8 +1,18 @@
-.container {
+ body{
+    float: left;
+    padding: 0;
+    width: 94%;
+    margin: 3%;
+ }
+ .container {
   background-color: black;
   color: white;
-  margin: 30px;
+  background-position: 0 0,10px 10px;
+ background-size: 21px 21px;
+ width: 229.064px;
+    
 }
+
 h1 {
   color: blue;
   text-align: left;
@@ -11,9 +21,10 @@ h1 {
 .first {
   border-radius: 20px;
   height: 200px;
+  border: 3%;
   background-image: url(https://i.pinimg.com/originals/c8/ba/30/c8ba30ee61944cc26dbde4022a0a4b72.gif);
   background-size: cover;
-  border-width: 200px;
+  
   margin: 20px;
   color: black;
   text-align: center;
@@ -25,7 +36,7 @@ h1 {
   height: 200px;
   background-image: url(https://i.pinimg.com/originals/01/13/83/0113839d3089f5b23c2f50bf2cabc84a.gif);
   background-size: cover;
-  border-width: 200px;
+  border: 3%;
   margin: 20px;
   color: black;
   text-align: center;
@@ -49,7 +60,7 @@ h1 {
   height: 200px;
   background-image: url(https://i.pinimg.com/originals/91/19/81/9119815cabaab45740e5a3f3dad3f931.gif);
   background-size: cover;
-  border-width: 200px;
+  border: 3%;
   margin: 20px;
   color: black;
   text-align: center;
