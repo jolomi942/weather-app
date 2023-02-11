@@ -1,5 +1,5 @@
  body{
-    float: left;
+    float:left;
     padding: 0;
     width: 94%;
     margin: 3%;
@@ -24,11 +24,10 @@ h1 {
 }
 .first {
   border-radius: 20px;
-  height: 200px;
+  height: 5%;
   border: 3%;
   background-image: url(https://i.pinimg.com/originals/c8/ba/30/c8ba30ee61944cc26dbde4022a0a4b72.gif);
   background-size: cover;
-  
   margin: 20px;
   color: black;
   text-align: center;
@@ -37,7 +36,7 @@ h1 {
 }
 .second {
   border-radius: 20px;
-  height: 200px;
+  height: 5%;
   background-image: url(https://i.pinimg.com/originals/01/13/83/0113839d3089f5b23c2f50bf2cabc84a.gif);
   background-size: cover;
   border: 3%;
@@ -50,7 +49,7 @@ h1 {
 
 .third {
   border-radius: 20px;
-  height: 200px;
+  height: 5%;
   background-image: url(https://i.pinimg.com/originals/cf/85/d9/cf85d966c302f3728a0e8f81805c132a.gif);
   background-size: cover;
   margin: 20px;
@@ -61,7 +60,7 @@ h1 {
 }
 .fourth {
   border-radius: 20px;
-  height: 200px;
+  height: 5%;
   background-image: url(https://i.pinimg.com/originals/91/19/81/9119815cabaab45740e5a3f3dad3f931.gif);
   background-size: cover;
   border: 3%;
@@ -73,6 +72,6 @@ h1 {
 }
 
 #search-form {
-  width: 2000px;
+  width: 90%;
   margin-left: 20px;
 }
