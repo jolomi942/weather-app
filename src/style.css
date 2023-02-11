@@ -1,3 +1,63 @@
-h1{
-    color: blue;
+.container {
+  background-color: black;
+  color: white;
+  margin: 30px;
+}
+h1 {
+  color: blue;
+  text-align: left;
+  margin: 50px;
+}
+.first {
+  border-radius: 20px;
+  height: 200px;
+  background-image: url(https://i.pinimg.com/originals/c8/ba/30/c8ba30ee61944cc26dbde4022a0a4b72.gif);
+  background-size: cover;
+  border-width: 200px;
+  margin: 20px;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-family: monospace;
+}
+.second {
+  border-radius: 20px;
+  height: 200px;
+  background-image: url(https://i.pinimg.com/originals/01/13/83/0113839d3089f5b23c2f50bf2cabc84a.gif);
+  background-size: cover;
+  border-width: 200px;
+  margin: 20px;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-family: monospace;
+}
+
+.third {
+  border-radius: 20px;
+  height: 200px;
+  background-image: url(https://i.pinimg.com/originals/cf/85/d9/cf85d966c302f3728a0e8f81805c132a.gif);
+  background-size: cover;
+  margin: 20px;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-family: monospace;
+}
+.fourth {
+  border-radius: 20px;
+  height: 200px;
+  background-image: url(https://i.pinimg.com/originals/91/19/81/9119815cabaab45740e5a3f3dad3f931.gif);
+  background-size: cover;
+  border-width: 200px;
+  margin: 20px;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-family: monospace;
+}
+
+#search-form {
+  width: 2000px;
+  margin-left: 20px;
 }

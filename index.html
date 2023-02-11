@@ -1,20 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+
     <title>Vanilla Weather App</title>
-    <link rel="stylesheet" href="src/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-</head>
-<body>
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
     <div class="container">
-        <h1>
-            Hello world
-        </h1>
-        <a href="" class= "btn btn-primary">Click me</a>
+      <h1>Weather</h1>
+      <form id="search-form">
+        <input
+          type="text"
+          placeholder="Enter a city"
+          autocomplete="off"
+          autofocus="on"
+          style="
+            width: 1000px;
+            height: 40px;
+            background-color: rgb(220, 218, 218);
+            border-style: hidden;
+          "
+          id="search-input"
+        />
+
+        <input
+          type="submit"
+          value="Search"
+          style="
+            background-color: blue;
+            color: white;
+            text-align: center;
+            width: 120px;
+            height: 40px;
+          "
+        />
+      </form>
+
+      <div class="first">
+        <div class="row">
+          <div class="col-3" id="location-1"> 🌏<br /> City</div>
+          <div class="col-3" id="time-1">🕓Time</div>
+          <div class="col-3" id="description-1">Description</div>
+          <div class="col-3" id="temperature-1">Temp</div>
+          <br />
+          <br />
+          <br />
+          <div class="col-3" id="humidity-1">Humidity</div>
+          <div class="col-3" id="windSpeed-1">Wind</div>
+        </div>
+      </div>
+      <div class="second">
+        <div class="row">
+          <div class="col-3" id="location-2">🌏<br />San Francisco</div>
+          <div class="col-3" id="time-2">🕓Time</div>
+          <div class="col-3" id="description-2">Description</div>
+          <div class="col-3" id="temperature-2">Temperature</div>
+          <br />
+          <br />
+          <br />
+          <div class="col-3" id="humidity-2">Humidity</div>
+          <div class="col-3" id="windSpeed-2">Wind</div>
+        </div>
+      </div>
+      <div class="third">
+        <div class="row">
+          <div class="col-3" id="location-3">
+            🌏 <br />
+            Paris
+          </div>
+          <div class="col-3" id="time-3">🕓Time</div>
+          <div class="col-3" id="description-3">Description</div>
+          <div class="col-3" id="temperature-4">Temperature</div>
+          <br />
+          <br />
+          <br />
+          <div class="col-3" id="humidity-3">Humidity</div>
+          <div class="col-3" id="windSpeed-3">Wind</div>
+        </div>
+      </div>
+      <div class="fourth">
+        <div class="row">
+          <div class="col-3" class="location">
+            🌏 <br />
+            Abuja
+          </div>
+          <div class="col-3" id="humidity">🕓Time</div>
+          <div class="col-3" id="windSpeed">Description</div>
+          <div class="col-3" id="windSpeed">Temperature</div>
+          <br />
+          <br />
+          <br />
+          <div class="col-3" id="humidity-4">Humidity</div>
+          <div class="col-3" id="windSpeed-4">Wind</div>
+        </div>
+      </div>
+      <div class="fifth">coded by Esther Jolomi</div>
+      <script src="src/app.js"></script>
     </div>
-    <script src="src/app.js"></script>
-</body>
+  </body>
 </html>
