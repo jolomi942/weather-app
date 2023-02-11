@@ -1,16 +1,15 @@
- body{
-    float:left;
-    padding: 0;
-    width: 94%;
-    margin: 3%;
- }
+@media screen and (max-width: 1200px) {
+  body {
+    
+  }
+}
  .container {
   background-color: black;
   color: white;
-  background-position: 0 0,10px 10px;
+  background-position: 0 0 10px 10px;
  background-size: 21px 21px;
  width: 229.064px;
- float: left;
+ 
     padding: 0;
     width: 94%;
     margin: 3%;
@@ -72,6 +71,6 @@ h1 {
 }
 
 #search-form {
-  width: 90%;
+  width: 3%;
   margin-left: 20px;
 }
