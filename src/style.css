@@ -69,199 +69,76 @@ h1 {
   margin-left: 20px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 675px) {
   .container {
-    background-color: black;
-    color: white;
-    background-position: 0 0 10px 10px;
-    background-size: 21px 21px;
-    width: 229.064px;
-    padding: 0;
-    width: 94%;
-    margin: 3%;
-  }
-
-  .first {
-    border-radius: 20px;
-    height: 5%;
-    border: 3%;
-    background-image: url(https://i.pinimg.com/originals/c8/ba/30/c8ba30ee61944cc26dbde4022a0a4b72.gif);
-    background-size: cover;
-    margin: 20px;
-    color: black;
-    text-align: center;
-    font-size: 10px;
-    font-family: monospace;
-  }
-  .second {
-    border-radius: 20px;
-    height: 5%;
-    background-image: url(https://i.pinimg.com/originals/01/13/83/0113839d3089f5b23c2f50bf2cabc84a.gif);
-    background-size: cover;
-    border: 3%;
-    margin: 20px;
-    color: black;
-    text-align: center;
-    font-size: 10px;
-    font-family: monospace;
-  }
-  .third {
-    border-radius: 20px;
-    height: 5%;
-    background-image: url(https://i.pinimg.com/originals/cf/85/d9/cf85d966c302f3728a0e8f81805c132a.gif);
-    background-size: cover;
-    margin: 20px;
-    color: black;
-    text-align: center;
-    font-size: 10px;
-    font-family: monospace;
-  }
-  .fourth {
-    border-radius: 20px;
-    height: 5%;
-    background-image: url(https://i.pinimg.com/originals/91/19/81/9119815cabaab45740e5a3f3dad3f931.gif);
-    background-size: cover;
-    border: 3%;
-    margin: 20px;
-    color: black;
-    text-align: center;
-    font-size: 10px;
-    font-family: monospace;
-  }
-
-  #search-form {
-    width: 90%;
-    margin-left: 20px;
-  }
-
+  background-color: black;
+  color: white;
+  margin: 0;
+  
 }
-@media screen and (min-width: 768px) {
-    .container {
-    background-color: black;
-    color: white;
-    background-position: 0 0 10px 10px;
-    background-size: 21px 21px;
-    width: 229.064px;
-    padding: 0;
-    width: 94%;
-    margin: 3%;
-  }
 
-  .first {
-    border-radius: 20px;
-    height: 5%;
-    border: 3%;
-    background-image: url(https://i.pinimg.com/originals/c8/ba/30/c8ba30ee61944cc26dbde4022a0a4b72.gif);
-    background-size: cover;
-    margin: 20px;
-    color: black;
-    text-align: center;
-    font-size: 10px;
-    font-family: monospace;
-  }
-  .second {
-    border-radius: 20px;
-    height: 5%;
-    background-image: url(https://i.pinimg.com/originals/01/13/83/0113839d3089f5b23c2f50bf2cabc84a.gif);
-    background-size: cover;
-    border: 3%;
-    margin: 20px;
-    color: black;
-    text-align: center;
-    font-size: 10px;
-    font-family: monospace;
-  }
-  .third {
-    border-radius: 20px;
-    height: 5%;
-    background-image: url(https://i.pinimg.com/originals/cf/85/d9/cf85d966c302f3728a0e8f81805c132a.gif);
-    background-size: cover;
-    margin: 20px;
-    color: black;
-    text-align: center;
-    font-size: 10px;
-    font-family: monospace;
-  }
-  .fourth {
-    border-radius: 20px;
-    height: 5%;
-    background-image: url(https://i.pinimg.com/originals/91/19/81/9119815cabaab45740e5a3f3dad3f931.gif);
-    background-size: cover;
-    border: 3%;
-    margin: 20px;
-    color: black;
-    text-align: center;
-    font-size: 10px;
-    font-family: monospace;
-  }
-
-  #search-form {
-    width: 90%;
-    margin-left: 20px;
-  }
+h1 {
+  color: blue;
+  text-align: left;
+  margin-top: 0px;
+  margin: 9px;
+  padding-top: 20px;
 }
-@media screen and (min-width: 1024px) {
-    .container {
-    background-color: black;
-    color: white;
-    background-position: 0 0 10px 10px;
-    background-size: 21px 21px;
-    width: 229.064px;
-    padding: 0;
-    width: 94%;
-    margin: 3%;
-  }
+.first {
+  border-radius: 20px;
+  height: 200px;
+  background-image: url(https://i.pinimg.com/originals/c8/ba/30/c8ba30ee61944cc26dbde4022a0a4b72.gif);
+  background-size: cover;
+  border-width: 200px;
+  margin: 10px;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 2px;
+  font-family: monospace;
+}
+.second {
+  border-radius: 20px;
+  height: 200px;
+  background-image: url(https://i.pinimg.com/originals/01/13/83/0113839d3089f5b23c2f50bf2cabc84a.gif);
+  background-size: cover;
+  border-width: 200px;
+  margin: 10px;
+  padding-top: 2px;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  font-family: monospace;
+}
 
-  .first {
-    border-radius: 20px;
-    height: 5%;
-    border: 3%;
-    background-image: url(https://i.pinimg.com/originals/c8/ba/30/c8ba30ee61944cc26dbde4022a0a4b72.gif);
-    background-size: cover;
-    margin: 20px;
-    color: black;
-    text-align: center;
-    font-size: 10px;
-    font-family: monospace;
-  }
-  .second {
-    border-radius: 20px;
-    height: 5%;
-    background-image: url(https://i.pinimg.com/originals/01/13/83/0113839d3089f5b23c2f50bf2cabc84a.gif);
-    background-size: cover;
-    border: 3%;
-    margin: 20px;
-    color: black;
-    text-align: center;
-    font-size: 10px;
-    font-family: monospace;
-  }
-  .third {
-    border-radius: 20px;
-    height: 5%;
-    background-image: url(https://i.pinimg.com/originals/cf/85/d9/cf85d966c302f3728a0e8f81805c132a.gif);
-    background-size: cover;
-    margin: 20px;
-    color: black;
-    text-align: center;
-    font-size: 10px;
-    font-family: monospace;
-  }
-  .fourth {
-    border-radius: 20px;
-    height: 5%;
-    background-image: url(https://i.pinimg.com/originals/91/19/81/9119815cabaab45740e5a3f3dad3f931.gif);
-    background-size: cover;
-    border: 3%;
-    margin: 20px;
-    color: black;
-    text-align: center;
-    font-size: 10px;
-    font-family: monospace;
-  }
+.third {
+  border-radius: 20px;
+  height: 200px;
+  background-image: url(https://i.pinimg.com/originals/cf/85/d9/cf85d966c302f3728a0e8f81805c132a.gif);
+  background-size: cover;
+  margin: 10px;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  font-family: monospace;
+  position: relative;
+}
+.fourth {
+  border-radius: 20px;
+  height: 200px;
+  background-image: url(https://i.pinimg.com/originals/91/19/81/9119815cabaab45740e5a3f3dad3f931.gif);
+  background-size: cover;
+  border-width: 200px;
+  margin: 10px;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  font-family: monospace;
+}
 
-  #search-form {
-    width: 50%;
-    margin-left: 20px;
-  }
+#search-form {
+  width: 2000px;
+  margin-left: 20px;
+}
+
 }
