@@ -69,7 +69,7 @@ h1 {
   margin-left: 20px;
 }
 
-@media screen and (min-width: 675px) {
+@media only screen and (min-width: 320px) {
   .container {
   background-color: black;
   color: white;
@@ -87,33 +87,36 @@ h1 {
 .first {
   border-radius: 20px;
   height: 200px;
+  width: 280px;
   background-image: url(https://i.pinimg.com/originals/c8/ba/30/c8ba30ee61944cc26dbde4022a0a4b72.gif);
   background-size: cover;
-  border-width: 200px;
   margin: 10px;
   color: black;
   text-align: center;
   font-size: 16px;
   padding-top: 2px;
   font-family: monospace;
+  text-emphasis-position: fixed;
 }
 .second {
   border-radius: 20px;
   height: 200px;
   background-image: url(https://i.pinimg.com/originals/01/13/83/0113839d3089f5b23c2f50bf2cabc84a.gif);
   background-size: cover;
-  border-width: 200px;
+  width: 280px;
   margin: 10px;
   padding-top: 2px;
   color: black;
   text-align: center;
   font-size: 16px;
   font-family: monospace;
+  position: relative;
 }
 
 .third {
   border-radius: 20px;
   height: 200px;
+  width: 280px;
   background-image: url(https://i.pinimg.com/originals/cf/85/d9/cf85d966c302f3728a0e8f81805c132a.gif);
   background-size: cover;
   margin: 10px;
@@ -128,17 +131,19 @@ h1 {
   height: 200px;
   background-image: url(https://i.pinimg.com/originals/91/19/81/9119815cabaab45740e5a3f3dad3f931.gif);
   background-size: cover;
-  border-width: 200px;
+  width: 280px;
   margin: 10px;
   color: black;
   text-align: center;
   font-size: 16px;
   font-family: monospace;
+  position: relative;
 }
 
 #search-form {
   width: 2000px;
   margin-left: 20px;
 }
+
 
 }
