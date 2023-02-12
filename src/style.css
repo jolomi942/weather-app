@@ -69,13 +69,13 @@ h1 {
   margin-left: 20px;
 }
 
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 2688px) {
   .container {
   background-color: black;
   color: white;
-  margin: 0;
-  height: 1280px;
-  width:  720px;
+  margin: 0px;
+  height: 1242px;
+  width:  2688px;
   
 }
 
@@ -99,7 +99,7 @@ h1 {
   font-size: 20px;
   padding: 2px;
   font-family: monospace;
-  text-emphasis-position: fixed;
+  
 }
 .second {
   border-radius: 20px;
@@ -113,7 +113,7 @@ h1 {
   text-align: center;
   font-size: 20px;
   font-family: monospace;
-  position: relative;
+  
 }
 
 .third {
@@ -127,7 +127,7 @@ h1 {
   text-align: center;
   font-size: 20px;
   font-family: monospace;
-  position: relative;
+  
 }
 .fourth {
   border-radius: 20px;
@@ -140,7 +140,7 @@ h1 {
   text-align: center;
   font-size: 20px;
   font-family: monospace;
-  position: relative;
+  
 }
 
 #search-form {
